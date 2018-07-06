@@ -1,4 +1,4 @@
-package git.jackwisdom.pangufarming.blocks;
+package git.jackwisdom.pangufarming.blocks.crop;
 
 import git.jackwisdom.pangufarming.items.Items;
 import net.minecraft.block.BlockCarrot;

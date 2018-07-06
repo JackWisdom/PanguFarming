@@ -16,9 +16,9 @@ import net.minecraft.item.Item;
 @Registering(PanguFarming.MODID)
 @SharedCreativeTab("tools")
 public interface Items {
-    @RegItem("tofu")
+    @RegItem
     public static final ToFu tofu=new ToFu();
-    @RegItem("rice")
+    @RegItem
     public static final Rice rice=new Rice();
 
 }
