@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "age=0": { "model": "pangufarming:crop/soybean_0" },
+        "age=1": { "model": "pangufarming:crop/soybean_1" },
+        "age=2": { "model": "pangufarming:crop/soybean_2" },
+        "age=3": { "model": "pangufarming:crop/soybean_3" }
+    }
+}

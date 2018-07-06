@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "pangufarming:blocks/crop/paddy_2"
+  }
+}
