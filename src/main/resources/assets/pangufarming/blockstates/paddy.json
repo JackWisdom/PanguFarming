@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "age=0": { "model": "pangufarming:crop/paddy_0" },
+        "age=1": { "model": "pangufarming:crop/paddy_1" },
+        "age=2": { "model": "pangufarming:crop/paddy_2" },
+        "age=3": { "model": "pangufarming:crop/paddy_3" }
+    }
+}
