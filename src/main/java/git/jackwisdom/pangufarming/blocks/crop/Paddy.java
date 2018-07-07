@@ -5,12 +5,14 @@ import net.minecraft.block.BlockCarrot;
 import net.minecraft.block.BlockCrops;
 
 import net.minecraft.block.BlockFarmland;
+import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class Paddy extends BlockCarrot {
+    public static final PropertyInteger AGE = PropertyInteger.create("age", 0, 3);
     public Paddy(){
 
     }

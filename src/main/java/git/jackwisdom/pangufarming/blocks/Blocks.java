@@ -9,6 +9,7 @@ import git.jackwisdom.pangufarming.PanguFarming;
 import git.jackwisdom.pangufarming.blocks.crop.Millet;
 import git.jackwisdom.pangufarming.blocks.crop.Paddy;
 import git.jackwisdom.pangufarming.blocks.crop.SoyBean;
+import git.jackwisdom.pangufarming.blocks.plant.Corn;
 import git.jackwisdom.pangufarming.items.seed.MilletSeed;
 import git.jackwisdom.pangufarming.items.seed.PaddySeed;
 import git.jackwisdom.pangufarming.items.seed.SoyBeanSeed;
@@ -23,4 +24,6 @@ public interface Blocks {
     public static final Millet millet=new Millet();
     @RegBlock(itemClass = SoyBeanSeed.class)
     public static final SoyBean soybean=new SoyBean();
+    @RegBlock
+    public static final Corn corn=new Corn();
 }

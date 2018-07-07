@@ -12,6 +12,8 @@ import git.jackwisdom.pangufarming.items.food.Rice;
 import git.jackwisdom.pangufarming.items.food.ToFu;
 import git.jackwisdom.pangufarming.items.seed.PaddySeed;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
 @AutoWired
 @Registering(PanguFarming.MODID)
 @SharedCreativeTab("tools")
@@ -20,5 +22,6 @@ public interface Items {
     public static final ToFu tofu=new ToFu();
     @RegItem
     public static final Rice rice=new Rice();
+
 
 }
